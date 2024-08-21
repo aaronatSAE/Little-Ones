@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4124325619086223151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8234740120044740057}
+  - component: {fileID: 7494345103665754152}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8234740120044740057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124325619086223151}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1000319, y: -0.31659716, z: 0.025091559}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7494345103665754152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4124325619086223151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cfa26ff45e5b047b1fd5ea9e2189ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boblin: {fileID: 0}
+  boblingPrefab: {fileID: -194645362687689812, guid: e47da674d68d77945b8c690d07b08707, type: 3}
+  roblingPrefab: {fileID: -978733413214466222, guid: 1af4fe24d4a633d43bc796c800809dd3, type: 3}
+  characterSpawner: {fileID: 0}
+  boblingsToSpawnAtStart: 3
+  boblings: []
+  roblingsToSpawnAtStart: 0
+  roblings: []
+  roblingSpawnTimer: 3
+  roblingSpawnTimerReset: 3
